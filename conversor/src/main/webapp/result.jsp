@@ -10,7 +10,7 @@
 </head>
 <body>
 	<%
-		System.out.println(request.getAttribute("result"));
+		//System.out.println(request.getAttribute("result"));
 		String result = (String) request.getAttribute("result");
 		String celsius = (String) request.getAttribute("celsius");
 	
